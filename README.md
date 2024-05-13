@@ -1,3 +1,5 @@
+https://github.com/sveltejs/svelte/issues/11576
+
 # Lighthouse results - original
 
 | in seconds       | Total Blocking Time | SpeedIndex | First Contentful Paint | Largest Contentful Paint | Script Evaluation | Parse HTML & CSS |
