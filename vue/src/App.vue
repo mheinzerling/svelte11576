@@ -11,7 +11,31 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <h1>Vite + Vue</h1>
+  <div class="card">
+    <template v-for="_ in 50000">
+      <HelloWorld/>
+    </template>
+  </div>
+
+  <p>
+    Edit
+    <code>components/HelloWorld.vue</code> to test HMR
+  </p>
+
+  <p>
+    Check out
+    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
+    >create-vue</a
+    >, the official Vue + Vite starter
+  </p>
+  <p>
+    Install
+    <a href="https://github.com/vuejs/language-tools" target="_blank">Volar</a>
+    in your IDE for a better DX
+  </p>
+  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+
 </template>
 
 <style scoped>

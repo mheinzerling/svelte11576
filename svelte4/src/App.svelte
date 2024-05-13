@@ -16,7 +16,9 @@
   <h1>Vite + Svelte 4</h1>
 
   <div class="card">
-    <Counter />
+    {#each {length: 50000} as _}
+      <Counter/>
+    {/each}
   </div>
 
   <p>
